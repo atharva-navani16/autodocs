@@ -1,4 +1,4 @@
-module go-autodocs
+module github.com/atharva-navani16/autodocs
 
 go 1.24.0
 

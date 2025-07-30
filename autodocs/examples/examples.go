@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"go-autodocs/autodocs"
+	"github.com/atharva-navani16/autodocs/autodocs"
 
 	"github.com/gin-gonic/gin"
 )
