@@ -1263,7 +1263,7 @@ func (ga *GinAdapter) GetRoutes() ([]*FrameworkRoute, error) {
 	// Use reflection to access gin.Engine.routes
 	engineValue := reflect.ValueOf(ga.engine)
 	if engineValue.Kind() == reflect.Ptr {
-		engineValue = engineValue.Elem()
+		_ = engineValue.Elem()
 	}
 
 	// This is a simplified implementation
